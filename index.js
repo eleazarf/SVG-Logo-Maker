@@ -11,7 +11,7 @@ const questions = require('./lib/questions.js');
 const fileName = "./examples/newlogo.svg";
 
 // Import the setShape module to manage shape selection
-const setShape = require('./lib/shape.js');
+const setShape = require('./lib/setShape.js');
 
 // function to create new svg file
 function makeLogo(response) {
