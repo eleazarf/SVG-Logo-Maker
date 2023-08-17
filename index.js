@@ -15,7 +15,7 @@ const setShape = require('./lib/shape.js');
 
 // function to create new svg file
 function makeLogo(response) {
-    const svg = getShape(response);
+    const svg = setShape(response);
     fs.writeFile(fileName, svg, ()=> console.log('Generated newlogo.svg'));
 }
 
